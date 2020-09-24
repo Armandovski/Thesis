@@ -1,3 +1,9 @@
+% Author: Armando Alvarez Rolins
+% Master's Thesis
+% Aug. 29th, 2016
+% Title: ZEM/ZEV Rendezvous on Rotating Target with Waypoint Method
+% File: Test Plot data
+
 n1 = 100; n2 = 50; n3 = 100;
 %warning('off','all')
 x = linspace(-2.5, 2.5, n1);
@@ -23,7 +29,7 @@ for i = 1:n1
         Vmin(i,j,:) = min(v_w(k));
          disp(num2str(j))
     end
-   
+
 end
 
 figure(1)
